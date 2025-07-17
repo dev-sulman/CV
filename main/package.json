@@ -1,6 +1,6 @@
 {
   "name": "main",
-  "homepage": "https://sulman.github.io/CV",
+  "homepage": "https://sulman.github.io/Portfolio-Website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "perdeploy": "npm run build && gh-pages -d dist",
+    "perdeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
